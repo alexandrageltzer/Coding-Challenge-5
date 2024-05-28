@@ -26,3 +26,6 @@ class Manager extends Employee {
       return totalSalary;
     }
   }
+// task 3. instantiate manager objects
+const manager1 = new Manager("Bob Ross", 6600, "Digital Marketing");
+const manager2 = new Manager("Debbie Little", 7205, "Finance");
